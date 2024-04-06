@@ -21,7 +21,7 @@
 
 
 # DESCRIPCIÓN DE LA PROBLEMATICA
-En Colombia, el Instituto Nacional de Cancerología enfatiza la prevención y la detección precoz como estrategias clave para mejorar la calidad de vida de los pacientes y reducir los costos asociados al tratamiento en etapas avanzadas de la enfermedad​ (Cancer.gov)​. 
+En Colombia `el diagnostico tardio del cancer es una problematica`, el Instituto Nacional de Cancerología enfatiza la prevención y la detección precoz como estrategias clave para mejorar la calidad de vida de los pacientes y reducir los costos asociados al tratamiento en etapas avanzadas de la enfermedad​ (Cancer.gov)​. 
 
 El proyecto se enfoca en la detección temprana del cáncer en Colombia, un país donde la mayoría de los diagnósticos se hacen en etapas avanzadas, incrementando los costos para las  EPS (Entidades Promotoras de Salud) y el Estado, y reduciendo las probabilidades de un tratamiento exitoso. 
 
