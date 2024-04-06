@@ -6,13 +6,14 @@
 ## Tabla de Contenidos
 - [Descripción de la problematica](#DESCRIPCION)
 - [Objetivos](#OBJETIVOS)
-- [Contenido del repositorio](#REPOSITORIO)
+- [Contenido del repositorio](#CONTENIDO)
 - [Tecnologias Utilizadas](#TECNOLOGIAS)
   - [Python](#Python)
   - [Jupyter Notebook](#Jupyter)
   - [MySQL](#MySql)
   - [Excel](#Excel)
   - [MySQL Workbench](#MySQL_)
+  - [NoteBooks](#Notebooks)
 - [Detallez sobre la Cantidad y Naturaleza de los Datos](#Detallez)
   - [Limpieza de datos](#Limpieza)
   - [Manipulación](#Manipulación)
@@ -20,7 +21,7 @@
 - [Conclusiones y valor generado](#Conclusiones)
 
 
-# DESCRIPCIÓN DE LA PROBLEMATICA
+# DESCRIPCION DE LA PROBLEMATICA
 En Colombia `el diagnostico tardio del cancer es una problematica`, el Instituto Nacional de Cancerología enfatiza la prevención y la detección precoz como estrategias clave para mejorar la calidad de vida de los pacientes y reducir los costos asociados al tratamiento en etapas avanzadas de la enfermedad​ (Cancer.gov)​. 
 
 El proyecto se enfoca en la detección temprana del cáncer en Colombia, un país donde la mayoría de los diagnósticos se hacen en etapas avanzadas, incrementando los costos para las  EPS (Entidades Promotoras de Salud) y el Estado, y reduciendo las probabilidades de un tratamiento exitoso. 
@@ -38,7 +39,6 @@ Esta seccion incluye una explicacion de cada uno de los archivos que se encunetr
 
 - `Limpieza_de_datos.ipynb`: Describe el proceso de limpieza de datos inicial, removiendo datos innecesarios y ajustando el conjunto de datos para eliminar cualquier inconsistencia que pudiera afectar el análisis. Este proceso fue crucial para asegurar la calidad y precisión del análisis posterior.
 - `Manipulación_de_datos.ipynb`: Notebook que detalla el proceso de manipulación de datos realizado para preparar el conjunto de datos para un analisis enfocado a bases de datos. Incluye la transformación de el dataframe de pandas a una base de datos llamada ProyectoGestion en la tabla DatosClinicos, y la adecuación de los tipos de datos, ademas de las funciones del CRUD desde python para manipular los datos, y algunas graficas que muestran los reflejos de dichos cambios realizados en el crud.
-- `Notebooks de Jupyter`: Contienen el código de análisis de datos, incluyendo limpieza de datos, exploración, visualización, y análisis estadístico. Los notebooks están detalladamente documentados para facilitar la comprensión del proceso.
 - `DataLimpia.cvs`: Conjunto de datos resultado de la limpieza de los datos en el proyecto, que se utilizara como material inicial para el funcionamiento del archivo jupiter de Manipulacion de datos.
 - `DatosClinicos2020.xlsx`: Conjunto de datos utilizado en el proyecto. Los datos específicos utilizados en este proyecto son sensibles / privados, por lo que aquí se incluye un subconjunto o datos de muestra del estudio total, obtenido de [WebSite](https://www.cancer.gov.co/centro-investigacion/lineas-investigacion/control-del-riesgo-deteccion-precoz-del).
 - `README`: Este archivo, que es el guia que proporcionando una visión general del proyecto.
@@ -75,6 +75,9 @@ Posterior a la instalacion es necesario que se cree un susuario y contraseña pe
 
 ## MySQL Workbench
 Para la interfaz gráfica de usuario que permite la administración de bases de datos MySQL, facilitando la visualización, diseño, creación, y modificación de bases de datos, se utilizo Mysql Workbench, que se puede instalar en el siguiente [enlace](https://dev.mysql.com/downloads/workbench/).
+
+## Notebooks de Jupyter
+Contienen el código de análisis de datos, incluyendo limpieza de datos, exploración, visualización, y análisis estadístico. Los notebooks están detalladamente documentados para facilitar la comprensión del proceso.
 
 ## Excel
 Se uso para la manipulación preliminar de datos, es decir, debido a que cuando se exportan los datos desde el archivo de `Limpieza_de_datos.ipynb`, vienen con una columna adicional incial. Es necesario que previo al uso del archivo `Manipulación_de_datos.ipynb`, esta columna sea eliminada con la herramienta excel. Columna a eliminar: 
