@@ -4,7 +4,7 @@
 - Melannie Upegui Vasquez.
 
 ## Tabla de Contenidos
-- [Descripción de la problematica](#DESCRIPCIÓN)
+- [Descripción de la problematica](#DESCRIPCION)
 - [Objetivos](#OBJETIVOS)
 - [Contenido del repositorio](#REPOSITORIO)
 - [Tecnologias Utilizadas](#TECNOLOGIAS)
